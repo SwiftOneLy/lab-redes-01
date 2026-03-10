@@ -1,9 +1,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 # laboratorio redes 01 - Projeto de Rede Local
-Aluno: Felippe Camargo <br>
-Professor: José de Assis <br>
-Data: 09/03/26
+**Aluno:** Felippe Camargo <br>
+**Professor:** José de Assis <br>
+**Data:** 09/03/26
 
 ---
 
@@ -28,7 +28,7 @@ O Projeto será divido em duas etapas
 
 ## 3. Topologia da Rede
 
-Diagrama Logico da Rede Usada nesteb Laboratorio
+Diagrama Logico da Rede Usada neste Laboratorio
 ```mermaid
 graph TD
 
@@ -57,3 +57,25 @@ Router --> |LAN 4| Printer
 <img width="753" height="449" alt="Topologia" src="https://github.com/user-attachments/assets/a02e2844-80f0-49f7-9a29-0d5239ab737f" />
 
 ---
+
+## 4. Plano de Endereçamento IP
+
+**Rede:** 192.168.0.0/24
+
+**Gateway:** 192.168.0.1
+
+| Dispositivo | Tipo de IP | Endereço IP | Observação|
+|-------------|------------|-------------|-----------|
+| Roteador | Estático | 192.168.0.1 | IP do Roteador |
+| Impressora | Reserva DHCP | 192.168.0.105 | IP Reservado pelo roteador|
+| PC1 | Reserva DHCP | 192.168.0.104 | IP Reservado Pelo Roteador |
+| PC2 | DHCP | Automático | IP Atribuido Pelo Roteador |
+| PC3 | DHCP | Automático | IP Atribuido Pelo Roteador |
+
+**Observação**
+
+- A impressora e um dos notebooks utilizam reserva DHCP.
+- O Roteador Sempre atribui o mesmo endereço IP a Estes Dispositivos.
+
+---
+
