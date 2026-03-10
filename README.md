@@ -79,3 +79,17 @@ Router --> |LAN 4| Printer
 
 ---
 
+
+## 5. Conclusão
+
+Este Laboratório permitiu compreender o funcionamento de uma rede local simples, incluindo:
+
+- Estrutura de uma Rede Doméstica ou de Pequeno Escritório
+- Utilização de um roteador com Porta WAN e portas LAN
+- Funcionamento do DHCP
+- Comunicação entre dispositivos de Rede Local
+- utilização de uma impressora de Rede
+- Compartilhamento de Pastas na rede usando o Windows
+- Jogos em Rede Locais
+
+---
